@@ -45,3 +45,6 @@ class insuranceBusinessMagSpider(StaticCategoriesSpider):
         item['link'] = response.url
         items.append(item)
         return items
+
+      
+# //div[@class="pager"]/a[@class="current"]/following-sibling::a[1]/@href
