@@ -28,7 +28,7 @@ class insuranceBusinessMagSpider(StaticCategoriesSpider):
     name = 's_brokernews'
     allowed_domains = ["brokernews.com.au"]
     start_urls = ['https://www.brokernews.com.au/news/breaking-news/']  
-    next_page = LinkExtractor(restrict_xpaths=('//a[@class="controller arrow next "]'))
+    next_page = LinkExtractor(restrict_xpaths=('//div[@class="pager"]/a[@class="current"]/following-sibling::a[1]'))
     article_links = LinkExtractor(restrict_xpaths=('//div[@class="latest_news"]//li//a'))
 
     def parse_page(self, response):
