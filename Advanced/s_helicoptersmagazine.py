@@ -7,5 +7,4 @@ TEXT_XPATH = ['//div[@class="the-content"]/p//text()']
 INTERLINKS = ['//div[@class="the-content"]/p//@href']
 #2009-11-16T15:11:30+00:00
 DATE_FORMAT_STRING = '%Y-%m-%d'
-
-    allowed_domains = ["helicoptersmagazine.com"]
+# helicoptersmagazine.com
