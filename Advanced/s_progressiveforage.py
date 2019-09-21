@@ -8,6 +8,6 @@ TEXT_XPATH = ['//div[@class="articletext"]//p//text() | //div[@class="articletex
 INTERLINKS = ['//div[@class="articletext"]//p//@href']
 #Published on 15 July 2019
 DATE_FORMAT_STRING = 'Published on %d %B %Y'
+# progressiveforage.com
 
-    allowed_domains = ["progressiveforage.com"]
 
