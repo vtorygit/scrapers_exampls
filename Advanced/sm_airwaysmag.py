@@ -7,4 +7,4 @@ TEXT_XPATH = ['//div[@class="shortcode-content"]//p//text()']
 INTERLINKS = ['']#no
 DATE_FORMAT_STRING = '%Y-%m-%d'
 
-    allowed_domains = ["airwaysmag.com"]
+# airwaysmag.com
