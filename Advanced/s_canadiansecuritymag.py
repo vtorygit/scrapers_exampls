@@ -8,3 +8,5 @@ TEXT_XPATH = ['//div[@class="the-content"]/p//text()']
 INTERLINKS = ['//div[@class="the-content"]/p//@href']
 #2009-01-14T19:54:26+00:00
 DATE_FORMAT_STRING = '%Y-%m-%d'
+
+# https://www.canadianrealestatemagazine.ca/
