@@ -43,8 +43,11 @@ WIN+R (нажать сочетание клавиш)
 https://www.liquidweb.com/kb/install-pip-windows/
 
 1. Download get-pip.py to a folder on your computer.
+
 2. Open a command prompt and navigate to the folder containing get-pip.py.
+
 3. Run the following command:python get-pip.py
+
 4. Pip is now installed!
 
 
@@ -53,10 +56,15 @@ https://www.liquidweb.com/kb/install-pip-windows/
 <b>mac</b>:
 
 в терминале:
+
 `pip install virtualenv`
+
 `pip install virtualenvwrapper`
+
 `export WORKON_HOME=~/.virtualenvs`
+
 `[ -f /usr/local/bin/virtualenvwrapper.sh ] && source /usr/local/bin/virtualenvwrapper.sh`
+
 закрыть терминал и открыть снова
 
 создать виртуальную среду командой (вместо теста название среды - какое хотите)
@@ -65,6 +73,7 @@ https://www.liquidweb.com/kb/install-pip-windows/
 
 активировать среду командами:
 `source venv/bin/activate`    тут venv - имя, которое вы задали выше (scrapim)
+
 к имени пользователя и названию компьютера должно добавиться имя среды - это значит, что вы активировали среду и все ок.
 
 Когда вы заканчиваете работу со средой, отключить ее нужно командой deactivate
@@ -78,7 +87,9 @@ https://www.liquidweb.com/kb/install-pip-windows/
 если написать `dir` и нажать enter, среди списка должно появиться введенное имя
 
 запустить в терминале:
+
 `scrapim\Scripts\activate.bat`
+
 в самом начале строки (где указан путь к папке, диск и пр.) должно добавиться имя среды в круглых кавычках
 
 как деактивировать видно на видео
@@ -88,6 +99,7 @@ https://www.liquidweb.com/kb/install-pip-windows/
 при активированной среде:
 
 <b>mac</b>: `pip install Scrapy`
+
 <b>windows</b>: `pip install Scrapy`
 
 такие команды нашлись в интернете. Если не запустится, попробуйте написать scrapy вместо Scrapy
