@@ -9,27 +9,35 @@ ________________________________________________________________________________
 
 ## Настройка окружения
 Открыть терминал
+
 <b>mac</b>: проблем, насколько знаю, быть не должно
+
 <b>windows</b>: 
+
 WIN+R (нажать сочетание клавиш)
+
 вбить cmd и нажать кнопку ОК
 
 или просто ищете во всех программах “командную строку”, она должна быть в стандартных программах
 
-
 Установить питон
 
-mac: 
+<b>mac: </b>
+
 на маках по умолчанию должен ставиться 3, ничего указывать не надо
+
 в терминале делаете:
+
 `brew install python`
 `export PATH="/usr/local/opt/python/libexec/bin:/usr/local/bin:$PATH"`
+
 закрыть терминал и снова его открыть, чтобы изменения применились
+
 в терминале пишете:
 `python --version`
 если не возникает ошибок, питон поставился нормально
 
-windows: скачиваете с официального сайта и устанавливаете как обычную программу. Нужен python 3. https://www.python.org/downloads/
+<b>windows</b>: скачиваете с официального сайта и устанавливаете как обычную программу. Нужен python 3. https://www.python.org/downloads/
 
 и для удобства установить pip как тут написано:
 https://www.liquidweb.com/kb/install-pip-windows/
@@ -42,13 +50,15 @@ https://www.liquidweb.com/kb/install-pip-windows/
 
 Виртуальная среда
 
-mac:
+<b>mac</b>:
+
 в терминале:
 `pip install virtualenv`
 `pip install virtualenvwrapper`
 `export WORKON_HOME=~/.virtualenvs`
 `[ -f /usr/local/bin/virtualenvwrapper.sh ] && source /usr/local/bin/virtualenvwrapper.sh`
 закрыть терминал и открыть снова
+
 создать виртуальную среду командой (вместо теста название среды - какое хотите)
 
 `mkvirtualenv scrapim`
@@ -58,8 +68,9 @@ mac:
 к имени пользователя и названию компьютера должно добавиться имя среды - это значит, что вы активировали среду и все ок.
 
 Когда вы заканчиваете работу со средой, отключить ее нужно командой deactivate
-________________________
-windows:
+
+<b>windows</b>:
+
 в терминале написать `pip list` и найти в конце списка vitrualenv - он должен стоять по умолчанию
 
 `python -m venv scrapim`  (вместо scrapim можно написать любое другое название, но нужно его запомнить)
@@ -76,8 +87,8 @@ windows:
 
 при активированной среде:
 
-mac: `pip install Scrapy`
-windows: `pip install Scrapy`
+<b>mac</b>: `pip install Scrapy`
+<b>windows</b>: `pip install Scrapy`
 
 такие команды нашлись в интернете. Если не запустится, попробуйте написать scrapy вместо Scrapy
 
