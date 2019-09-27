@@ -34,6 +34,7 @@ WIN+R (нажать сочетание клавиш)
 в терминале делаете:
 
 `brew install python`
+
 `export PATH="/usr/local/opt/python/libexec/bin:/usr/local/bin:$PATH"`
 
 закрыть терминал и снова его открыть, чтобы изменения применились
