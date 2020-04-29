@@ -1,4 +1,7 @@
 # Scrapers examples
+
+Writing XPATHS for the elements required
+
 The repo consists of 2 forlders:
 
 `1` - <b> Basic examples </b> with most typical spiders <br>
